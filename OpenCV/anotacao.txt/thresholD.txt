@@ -1,0 +1,14 @@
+A função cv2.threshold é uma função da biblioteca OpenCV (cv2) que é utilizada para realizar a operação de limiarização em uma imagem. A limiarização é um processo fundamental em processamento de imagem, onde os pixels da imagem são transformados com base em um valor limite (threshold) especificado.
+
+A assinatura básica da função é a seguinte:
+
+retval, threshold = cv2.threshold(src, thresh, maxval, type)
+src: A imagem de entrada em escala de cinza.
+thresh: O valor limite que é usado para classificar os pixels.
+maxval: O valor atribuído a pixels que ultrapassam o limite (quando type é cv2.THRESH_BINARY ou cv2.THRESH_TOZERO).
+type: O tipo de limiarização a ser aplicado, especificado usando constantes como cv2.THRESH_BINARY, cv2.THRESH_TOZERO, cv2.THRESH_TRUNC, entre outros.
+
+A função retorna dois valores:
+
+retval: Um valor limiar que foi usado na operação. Isso é útil quando o método de limiarização adaptativa é usado.
+threshold: A imagem resultante após a aplicação da limiarização.

@@ -1,0 +1,3 @@
+O  conceito  mais  amplo  de  filtro  se  refere  a  um  processo  que  deixa  a informação necessária passar,bloqueando informação desnecessária. 
+Em visão computacional, os filtros desempenham seu papel ao realizar uma convolução na   imagem   com   um   elemento   estruturante,   ou   simplesmente kernel. 
+Dependendo do formato e valores do kernel, o filtro irá suavizar, aguçar, detectar bordas ou reduzir ruídos em imagens.

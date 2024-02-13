@@ -1,0 +1,4 @@
+A função `equalizeHist` é uma funcionalidade da biblioteca OpenCV usada para equalizar o histograma de uma imagem. O histograma de uma imagem representa a distribuição de intensidades de pixel ao longo da escala de cores. A equalização do histograma visa ajustar essa distribuição para tornar a imagem mais equilibrada em termos de intensidades, resultando em um aumento perceptível no contraste.
+
+O processo de equalização de histograma envolve redistribuir as intensidades dos pixels de modo que a distribuição acumulada seja uniforme. Isso é particularmente útil quando a imagem tem uma distribuição desigual de intensidades, resultando em áreas escuras ou claras que podem ser melhoradas para uma visualização mais clara e detalhada.
+

@@ -1,0 +1,11 @@
+A função `addWeighted` é comumente usada em processamento de imagens para combinar duas imagens ponderadas, ajustando seus pesos. A fórmula básica é:
+
+dst(x, y) = saturate(src1(x, y) * alpha + src2(x, y) * beta + gamma)
+
+onde src1 e src2 são as imagens de entrada, alpha e beta são os pesos correspondentes, e gamma é um valor adicionado.
+
+Quanto à função `add`, ela simplesmente realiza uma soma elemento a elemento entre duas matrizes, proporcionando uma soma direta dos valores correspondentes.
+
+A função `subtract`, por outro lado, realiza a subtração elemento a elemento entre duas matrizes, resultando na diferença dos valores correspondentes.
+
+Essas operações são fundamentais em manipulação de imagens e processamento numérico, permitindo ajustar a intensidade, combinar ou subtrair informações entre diferentes fontes.

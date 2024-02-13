@@ -1,0 +1,7 @@
+o  histograma  de  uma  imagem  é  uma representação  da  distribuição  de  valores  dos  pixels  em  forma de  gráfico. 
+Em OpenCV, utiliza-se a função calcHist com os seguintes parâmetros:
+•images: Aimagem (ou imagens) fonte;
+•channels: O canal de cor a ser utilizado. No caso de uma imagem em escala de cinza, o valor é [0];
+•mask: Opcional. Uma imagem de “máscara”caso  deseje  analisar  o histograma de uma parte da imagem fonte;
+•histSize:   A   quantização   do   histograma.   Caso   deseje   a   escala completa, o valor é [256];
+•ranges: Os limites dos valores dos pixels. Geralmente [0, 256]

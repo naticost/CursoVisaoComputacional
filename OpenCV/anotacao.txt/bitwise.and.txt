@@ -1,0 +1,5 @@
+A operação AND bit a bit (cv2.bitwise_and) é uma operação que realiza a combinação bit a bit de dois conjuntos de pixels, utilizando a lógica AND. Essa operação é comumente usada para aplicar uma máscara a uma imagem.
+
+A ideia básica é que, para cada par de pixels correspondentes nas duas imagens de entrada, a operação AND bit a bit resulta em um pixel de saída onde ambos os bits são 1. Se um dos bits for 0, o resultado será 0.
+
+No contexto deste código, a imagem original é combinada com uma máscara usando a operação AND bit a bit. A máscara determina quais pixels da imagem original serão preservados (onde a máscara é branca, ou seja, 255) e quais serão zerados (onde a máscara é preta, ou seja, 0). Isso permite isolar ou destacar determinadas regiões da imagem com base na máscara fornecida
